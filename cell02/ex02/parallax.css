@@ -1,0 +1,38 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.pimg1{
+    background-image:url('https://www.flashfly.net/wp/wp-content/uploads/2022/04/1_RoV-%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%AA%E0%B9%8C%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%B2-%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9-.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-color:#000;
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image:url('https://gamingonphone.com/wp-content/uploads/2022/05/Arena-of-Valor-x-Demon-Slayer-collaboration.jpg');
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
